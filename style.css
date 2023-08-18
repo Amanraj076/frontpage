@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background: linear-gradient(279deg,rgba(238, 209, 209, 0.5),rgba(238, 176, 176, 0.5)70%),linear-gradient(276deg,rgba(235, 137, 137, 0.6),rgba(121, 121, 245, 0.8)70.71%),linear-gradient(276deg,rgba(245, 140, 140, 0.6),rgba(124, 124, 230, 0.8)70.71%),url(img/ASNX4919.JPG);
+    width: 100%;
+    height: 800px;
+    
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: black;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 30px;
+    color: antiquewhite;
+
+}
+ul{
+    display: flex;
+    padding-left: 0;
+    column-gap: 100px;
+}
+ul li{
+    list-style-type: none;
+    margin-top: 27px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     color: antiquewhite;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+}
+.ok{
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(279deg,rgba(166, 222, 10, 0),rgba(0,0,0,0.9));
+
+}
+.ok2{
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(279deg,rgba(166, 222, 10, 0),rgba(0,0,0,0.9));
+}
+.text1{
+    margin-top: 100px;
+}
+.it{
+    width: 478px;
+    height: 600px;
+}
+.menu :hover{
+    color: aqua;
+}
